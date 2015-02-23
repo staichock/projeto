@@ -1,11 +1,17 @@
 @CHARSET "UTF-8";
 
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+}
+
 body {background-color: #cff;}
 
 #form_login{
-	position:absolute;
-	left:50%;
-	top:50%;
-	margin-left:-110px;
-	margin-top:-40px;	
-}
+	width:400px;
+	margin:0 auto;
+	positon: relative;
+	top:200px;	
+} 
