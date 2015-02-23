@@ -1,4 +1,8 @@
 <html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="/stylos/estilo.css">
+</head>
 	<body>
 		<div id="form_login">
 			<form action="login.php" method="POST">
