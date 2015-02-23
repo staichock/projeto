@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+#form_login{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-110px;
+	margin-top:-40px;	
+}
