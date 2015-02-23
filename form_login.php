@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="/stylos/estilo.css">
+	<link rel="stylesheet" type="text/css" href="stylos/estilo.css">
 </head>
 	<body>
 		<div id="form_login">
