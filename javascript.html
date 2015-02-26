@@ -1,0 +1,81 @@
+<script>
+function aparece(){
+if(document.form1.um.selectedIndex=="1"){
+	document.form1.campofisi.style.visibility="visible";
+	document.form1.campojuri.style.visibility="hidden";
+//document.form1.dois.style.visibility="visible";
+//document.form1.tres.style.visibility="hidden";
+}
+else {
+	document.form1.campofisi.style.visibility="hidden";
+	document.form1.campojuri.style.visibility="visible";
+//document.form1.tres.style.visibility="visible";
+//document.form1.dois.style.visibility="hidden";
+}
+}
+</script>
+
+<!-- <label>Fisico</label><input type="radio" name="tipo" value="F" id="tipo"><br>
+<label>Juridico</label><input type="radio" name="tipo" value="J" id="tipo"><br>
+-->
+
+ 
+<form name="form1">
+	<!-- <span id="sim" onClick="aparece(juridica)"><input type="radio" name="tipo" value="J"></span>Juridica
+	<span id="nao" onClick="aparece(fisica)"><input type="radio" name="tipo" value="F" checked></span>Física
+-->
+<select name="um" onchange="aparece();">
+<option> Juridico </option>
+<option> Fisico </option>
+</select>
+<input type="text" name="campofisi" style="visibility:hidden;"><br>
+<input type="text" name="campojuri" style="visibility:hidden;">
+</form>
+<!-- 
+</select>
+<br>
+<form name="juri" style="visibility:hidden;">
+<label>Razao:</label><input type="text" name="nome" id="senha"><br>
+<label>CNPJ:</label><input type="text" name="nome" id="senha"><br>
+<label>IE:</label><input type="text" name="nome" id="senha">
+</form>
+<br>
+<select name="tres" style="visibility:hidden;">
+<label>Nome:</label><input type="text" name="nome" id="senha"><br>
+<label>CPF:</label><input type="text" name="nome" id="senha"><br>
+<label>RG:</label><input type="text" name="nome" id="senha">
+</select>
+</form>
+<label>Enreceço:</label><input type="text" name="endereco" id="endereco"><br>
+<label>Numero:</label><input type="text" name="numero" id="numero"><br>
+<label>Complemento:</label><input type="text" name="complemento" id="complemento">
+
+-->
+
+
+
+
+
+
+<!-- 
+<script>
+function aparece(){
+if(document.getElementById("fisica").checked){
+document.forms[0].campofisi.style.visibility="visible";
+document.forms[0].campojuri.style.visibility="hidden";
+}
+else {
+document.forms[0].campojuri.style.visibility="visible";
+document.forms[0].campofisi.style.visibility="hidden";
+}
+}
+</script>
+
+<form>
+<input type="radio" id="fisica" onclick="aparece()" name="campo">Fisico <br>
+<input type="radio" id="juridica" onclick="aparece()" name="campo">Juridico <br>
+<input type="text" name="campofisi" style="visibility:hidden;">
+<input type="text" name="campojuri" style="visibility:hidden;">
+</form>
+
+-->
