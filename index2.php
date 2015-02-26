@@ -1,8 +1,8 @@
 <?php 
-	include "teste2.php";
+	include "menu.php";
+	//include "teste2.php";
 ?>
-
-<body>
+<!-- body>
 <form method="POST" action="cadastrocliente.php">
 <label>Nome</label><input type="radio" name="tipo" value="F" id="tipo"><br>
 <label>CPF</label><input type="radio" name="tipo" value="J" id="tipo"><br>
@@ -12,7 +12,7 @@
 <label>Complemento:</label><input type="text" name="nome" id="senha"><br>
 </form>
 </body>
-
+-->
 <!-- 
 
 <form action="" method="post" name="menuForm">

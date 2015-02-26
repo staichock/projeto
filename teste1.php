@@ -1,3 +1,6 @@
+<?php 
+	include 'menu.php';
+?>
 <html>
 <head>
 <title>Cadastro de Cliente</title>
