@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>wlSecurity - Sistema de Seguran&ccedil;a Linux</title>
+<title>Cadastro de Cliente</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <script language="JavaScript" type="text/JavaScript">
 <!--
